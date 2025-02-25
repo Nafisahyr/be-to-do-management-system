@@ -46,7 +46,7 @@ const port = process.env.APP_PORT || 4000;
 console.log(process.env.APP_PORT)
 
 app.listen(port, () => {
-  console.log(`server is running on port $(port)`);
+  console.log(`server is running on port ${port}`);
 });
 
 module.exports = app;
